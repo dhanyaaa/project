@@ -19,10 +19,12 @@ body {
     font-size: 1.5em;
     text-align: center;
     background-color: #fff;
+    position: relative;
 }
 
 .visualization.active {
     display: flex;
+    flex-direction: column;
 }
 
 #nextBtn {
@@ -38,4 +40,14 @@ body {
 
 #nextBtn:hover {
     background-color: #005bb5;
+}
+
+#viz1{
+    width: 80%;
+    height: 100%;
+}
+
+#viz1 ul{
+    font-size: small;
+    list-style-type: none;
 }

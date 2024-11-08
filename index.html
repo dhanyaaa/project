@@ -10,16 +10,28 @@
 
     <h1>Explore Environmental Impact Visualizations</h1>
 
-    <!-- Visualization Containers -->
-    <div id="viz1" class="visualization active">idk</div>
-    <div id="viz2" class="visualization">something different</div>
-    <div id="viz3" class="visualization">sure</div>
-    <div id="viz4" class="visualization">awesome</div>
-    <div id="viz5" class="visualization">Casklds</div>
+    <div id="viz1" class="visualization active">
+        <canvas id="viz1Canvas"></canvas>
+        <div id="legend">
+            <h2>CO2 Emission Sources</h2>
+            <ul>
+                <li style="color: #ff5733;">Electricity & Heat (31%)</li>
+                <li style="color: #33ff57;">Agriculture (11%)</li>
+                <li style="color: #3375ff;">Transportation (15%)</li>
+                <li style="color: #ff33a6;">Forestry (6%)</li>
+                <li style="color: #ff9933;">Manufacturing (12%)</li>
+            </ul>
+        </div>
+    </div>
+    <div id="viz2" class="visualization">dasd</div>
+    <div id="viz3" class="visualization">asd</div>
+    <div id="viz4" class="visualization">sadas</div>
+    <div id="viz5" class="visualization">asda</div>
 
-    <!-- Button to navigate through visualizations -->
     <button id="nextBtn">Next Visualization</button>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="co2-sources-viz.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
